@@ -1177,124 +1177,6 @@ footer {
   </div>
 </section>
 
-<!-- ===== PROJECTS ===== --><!--
-<section id="projects">
-  <div class="projects-header">
-    <h2 class="section-title reveal">Things I've <span class="accent">Built</span></h2>
-  </div>
-  <div class="projects-grid">
-
-    <div class="project-card tilt-card reveal-up">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">📊</div>
-      <div class="project-num">01</div>
-      <h3 class="project-title">Real-Time Job Trend Analyzer</h3>
-      <p class="project-desc">Scraped and analyzed 50K+ job postings to identify demand trends across tech roles. Interactive dashboard with live filters, trend forecasting, and skill gap analysis.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">Python</span>
-        <span class="tech-badge">BeautifulSoup</span>
-        <span class="tech-badge">Pandas</span>
-        <span class="tech-badge">Plotly</span>
-        <span class="tech-badge">Streamlit</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-        <a href="#" class="proj-link demo">▸ Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card tilt-card reveal-up" style="transition-delay:0.1s">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">🛡️</div>
-      <div class="project-num">02</div>
-      <h3 class="project-title">AI-Based Threat Detection System</h3>
-      <p class="project-desc">Deep learning model trained on network traffic data to detect cyber intrusions and anomalies in real-time with 97% accuracy. Includes explainability layer via SHAP.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">PyTorch</span>
-        <span class="tech-badge">LSTM</span>
-        <span class="tech-badge">SHAP</span>
-        <span class="tech-badge">Kafka</span>
-        <span class="tech-badge">Docker</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-      </div>
-    </div>
-
-    <div class="project-card tilt-card reveal-up" style="transition-delay:0.2s">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">🚗</div>
-      <div class="project-num">03</div>
-      <h3 class="project-title">Used Car Price Prediction</h3>
-      <p class="project-desc">End-to-end ML pipeline using ensemble methods (XGBoost + Random Forest) achieving R²=0.94. Full feature engineering, hyperparameter tuning, and deployed REST API.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">XGBoost</span>
-        <span class="tech-badge">Scikit-learn</span>
-        <span class="tech-badge">FastAPI</span>
-        <span class="tech-badge">NumPy</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-        <a href="#" class="proj-link demo">▸ Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card tilt-card reveal-up" style="transition-delay:0.3s">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">👁️</div>
-      <div class="project-num">04</div>
-      <h3 class="project-title">Computer Vision Object Detection</h3>
-      <p class="project-desc">Fine-tuned YOLOv8 on a custom dataset for real-time multi-class detection. Achieved 91% mAP. Deployed with OpenCV video pipeline for edge device inference.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">YOLOv8</span>
-        <span class="tech-badge">OpenCV</span>
-        <span class="tech-badge">PyTorch</span>
-        <span class="tech-badge">CUDA</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-      </div>
-    </div>
-
-    <div class="project-card tilt-card reveal-up" style="transition-delay:0.4s">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">💬</div>
-      <div class="project-num">05</div>
-      <h3 class="project-title">NLP Sentiment Analysis Tool</h3>
-      <p class="project-desc">Fine-tuned BERT model on domain-specific Twitter and review data for aspect-level sentiment classification. Includes multilingual support and real-time inference API.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">BERT</span>
-        <span class="tech-badge">HuggingFace</span>
-        <span class="tech-badge">TensorFlow</span>
-        <span class="tech-badge">Flask</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-        <a href="#" class="proj-link demo">▸ Live Demo</a>
-      </div>
-    </div>
-
-    <div class="project-card tilt-card reveal-up" style="transition-delay:0.5s">
-      <div class="project-spotlight"></div>
-      <div class="project-icon">🧠</div>
-      <div class="project-num">06</div>
-      <h3 class="project-title">Neural Style Transfer App</h3>
-      <p class="project-desc">Deep learning app applying artistic styles to images using VGG19 feature extraction. Implemented Gram matrix optimization with adaptive learning rate scheduling.</p>
-      <div class="tech-stack">
-        <span class="tech-badge">TensorFlow</span>
-        <span class="tech-badge">VGG19</span>
-        <span class="tech-badge">Streamlit</span>
-        <span class="tech-badge">PIL</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="proj-link github">⌥ GitHub</a>
-        <a href="#" class="proj-link demo">▸ Live Demo</a>
-      </div>
-    </div>
-
-  </div>
-</section>
--->
 <section id="projects">
   <div class="projects-header">
     <h2 class="section-title reveal">Things I've <span class="accent">Built</span></h2>
@@ -1690,15 +1572,7 @@ form.addEventListener('submit', e => {
     setTimeout(() => document.getElementById('success-msg').classList.remove('show'), 4000);
   }, 1800);
 });
-
-// ===== RESUME BUTTON =====
-// Link uses the native download attribute; no JS action required.
-// keep the listener stub in case additional logic is needed later.
-// document.getElementById('resume-btn').addEventListener('click', e => {
-//   e.preventDefault();
-//   // window.location.href = 'Resume_Muhammad Hammad.pdf';
-// });
-
+  
 // ===== SMOOTH ANCHOR =====
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
@@ -1708,4 +1582,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 </script>
 </body>
+
 </html>
